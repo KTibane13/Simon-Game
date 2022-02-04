@@ -18,12 +18,15 @@ var level = 0;
 //   }
 // });
 
-$(document).on("mousedown touchstart", function() {
+$("h1").click( function() {
 
   if (!started) {
 
     $("#level-title").text("Level " + level);
-    nextSequence();
+    setTimeout(function(){
+  nextSequence();
+},100);
+
     started = true;
   }
 });
