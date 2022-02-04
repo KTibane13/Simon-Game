@@ -8,7 +8,17 @@ var started = false;
 
 var level = 0;
 
-$(document).keydown(function() {
+// $(document).keydown(function() {
+//
+//   if (!started) {
+//
+//     $("#level-title").text("Level " + level);
+//     nextSequence();
+//     started = true;
+//   }
+// });
+
+$(document).on("mousedown touchstart", function() {
 
   if (!started) {
 
