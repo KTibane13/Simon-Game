@@ -10,13 +10,27 @@ body {
   color: #FEF2BF;
 }
 
+.instructions h3{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 25px;
+  color: #FEF2BF;
+}
+
+#start-btn{
+  padding:15px;
+  margin: 15px,20px;
+  font-size: 25px;
+  border-radius: 25%;
+  color: #000;
+  background-color: rgb(213, 63, 63);
+
+}
 .container {
   display: block;
   width: 50%;
   margin: auto;
 
 }
-
 .btn {
   margin: 25px;
   display: inline-block;
@@ -53,6 +67,6 @@ body {
 }
 
 .copyright{
+  margin-top:25%;
   color:white;
-
 }

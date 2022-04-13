@@ -1,25 +1,10 @@
 var buttonColors = ["red", "blue", "green", "yellow"];
-
 var gamePattern = [];
-
 var userClickedPattern = [];
-
 var started = false;
-
 var level = 0;
 
-// $(document).keydown(function() {
-//
-//   if (!started) {
-//
-//     $("#level-title").text("Level " + level);
-//     nextSequence();
-//     started = true;
-//   }
-// });
-
-$("h1").click( function() {
-
+$("#start-btn").click( function() {
   if (!started) {
 
     $("#level-title").text("Level " + level);
